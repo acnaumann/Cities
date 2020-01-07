@@ -8,6 +8,9 @@ namespace Cities.Comparers
         {
             // Since we want to sort strings, we can use the
             // comparer for the built-in string class
+
+            //
+
             return string.Compare(x.Name, y.Name);
         }
     }

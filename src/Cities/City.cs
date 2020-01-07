@@ -17,6 +17,11 @@ namespace Cities
             return string.Format("{0,-20}{1,-24}{2,12}{3,10}", Name, State, Population, Area);
         }
 
+        internal int CompareTo(City y)
+        {
+            throw new NotImplementedException();
+        }
+
         public static string GetTableHeader()
         {
             string row1 = string.Format("{0,-20}{1,-24}{2,-12}{3,-10}", "Name", "State", "Population", "Area (sq mi)");
